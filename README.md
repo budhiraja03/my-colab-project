@@ -71,12 +71,13 @@ The initial ANN model **without dropout** showed clear signs of overfitting:
 2. **ANN With Dropout (0.2-0.5 rate)**
    - Added Dropout layers between hidden layers
    - Better generalization to unseen data
+     
 | Metric               | Training Data | Validation Data | Gap    |
 |----------------------|---------------|-----------------|--------|
 | Accuracy             | 89.7%         | 88.89%          | 0.81%  |  
 
 ✅ **Key Improvements with Dropout**
-- Reduced overfitting gap from 16.8% → 0.6%
+- Reduced overfitting gap from 16.8% → 0.81%
 - More stable validation performance
 - Better generalization to unseen attack patterns
      
